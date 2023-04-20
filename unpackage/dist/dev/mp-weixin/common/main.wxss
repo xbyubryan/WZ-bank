@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+@media (min-width: 768px) {
+page,
+	page,
+	page {
+		max-width: 375px;
+		margin: 0 auto;
+} 
+	font-size: 32rpx !important;
+}
+

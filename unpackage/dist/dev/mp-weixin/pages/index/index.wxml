@@ -1,0 +1,1 @@
+<view class="content"><image class="bgImg _img" src="/static/images/firstnew.png" alt></image><image class="first_but _img" src="/static/images/first_but.png" alt data-event-opts="{{[['tap',[['jump',['$event']]]]]}}" bindtap="__e"></image></view>
