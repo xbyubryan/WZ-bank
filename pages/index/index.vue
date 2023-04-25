@@ -2,8 +2,12 @@
 	<view class="content">
 		<img class="bgImg" src="/static/images/firstnew.png" alt="">
 		<img @click="jump" class="first_but" src="/static/images/first_but.png" alt="">
+		<p style="text-align: center;" p><a style="color: #ffffff;" href="https://beian.miit.gov.cn/"
+				target="_blank">晋ICP备2023014571号</a></p>
 	</view>
+
 </template>
+
 
 <script>
 	export default {

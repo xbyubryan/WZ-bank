@@ -15,33 +15,33 @@
 			</view>
 			<view class="leCanal leCanal3">
 				<img class="jsign" src="/static/images/jsign2.png" alt="">
-				<img @click="click3" class="jump_but" src="/static/images/jump_but.png" alt="">
-				<p class="name">武汉资方（众邦银行）</p>
-			</view>
-			<view class="leCanal leCanal4">
-				<img class="jsign" src="/static/images/jsign3.png" alt="">
 				<img @click="click4" class="jump_but" src="/static/images/jump_but.png" alt="">
 				<p class="name">重庆资方（富民银行）</p>
 			</view>
+			<view class="leCanal leCanal4">
+				<img class="jsign" src="/static/images/jsign3.png" alt="">
+				<img @click="click8" class="jump_but" src="/static/images/jump_but.png" alt="">
+				<p class="name">四川资方（新网银行）</p>
+			</view>
 			<view class="leCanal leCanal5">
 				<img class="jsign" src="/static/images/jsign4.png" alt="">
-				<img @click="click5" class="jump_but" src="/static/images/jump_but.png" alt="">
-				<p class="name">江苏资方（苏宁银行）</p>
+				<img @click="click3" class="jump_but" src="/static/images/jump_but.png" alt="">
+				<p class="name">武汉资方（众邦银行）</p>
 			</view>
 			<view class="leCanal leCanal6">
 				<img class="jsign" src="/static/images/jsign5.png" alt="">
-				<img @click="click6" class="jump_but" src="/static/images/jump_but.png" alt="">
-				<p class="name">杭州资方（杭州银行）</p>
+				<img @click="click5" class="jump_but" src="/static/images/jump_but.png" alt="">
+				<p class="name">江苏资方（苏宁银行）</p>
 			</view>
 			<view class="leCanal leCanal7">
 				<img class="jsign" src="/static/images/jsign6.png" alt="">
-				<img @click="click7" class="jump_but" src="/static/images/jump_but.png" alt="">
-				<p class="name">上海资方（浦发银行）</p>
+				<img @click="click6" class="jump_but" src="/static/images/jump_but.png" alt="">
+				<p class="name">杭州资方（杭州银行）</p>
 			</view>
 			<view class="leCanal leCanal8">
 				<img class="jsign" src="/static/images/jsign7.png" alt="">
-				<img @click="click8" class="jump_but" src="/static/images/jump_but.png" alt="">
-				<p class="name">四川资方（新网银行）</p>
+				<img @click="click7" class="jump_but" src="/static/images/jump_but.png" alt="">
+				<p class="name">上海资方（浦发银行）</p>
 			</view>
 			<view class="leCanal leCanal9">
 				<img class="jsign" src="/static/images/jsign8.png" alt="">
