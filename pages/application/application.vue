@@ -26,27 +26,27 @@
 			<view class="leCanal leCanal5">
 				<img class="jsign" src="/static/images/jsign4.png" alt="">
 				<img @click="click5" class="jump_but" src="/static/images/jump_but.png" alt="">
-				<p class="name">武汉资方（众邦银行）</p>
+				<p class="name">杭州资方（杭州银行）</p>
 			</view>
 			<view class="leCanal leCanal6">
 				<img class="jsign" src="/static/images/jsign5.png" alt="">
 				<img @click="click6" class="jump_but" src="/static/images/jump_but.png" alt="">
-				<p class="name">江苏资方（苏宁银行）</p>
+				<p class="name">武汉资方（众邦银行-企业版）</p>
 			</view>
 			<view class="leCanal leCanal7">
 				<img class="jsign" src="/static/images/jsign6.png" alt="">
 				<img @click="click7" class="jump_but" src="/static/images/jump_but.png" alt="">
-				<p class="name">杭州资方（杭州银行）</p>
+				<p class="name">武汉资方（众邦银行-个人版）</p>
 			</view>
 			<view class="leCanal leCanal8">
 				<img class="jsign" src="/static/images/jsign7.png" alt="">
 				<img @click="click8" class="jump_but" src="/static/images/jump_but.png" alt="">
-				<p class="name">上海资方（浦发银行）</p>
+				<p class="name">江苏资方（苏宁银行）</p>
 			</view>
 			<view class="leCanal leCanal9">
 				<img class="jsign" src="/static/images/jsign8.png" alt="">
 				<img @click="click9" class="jump_but" src="/static/images/jump_but.png" alt="">
-				<p class="name">宁波资方（容易租产品）</p>
+				<p class="name">吉林资方（亿联银行）</p>
 			</view>
 		</view>
 		<uni-popup ref="popup1" mask-closable="true">
@@ -68,7 +68,7 @@
 		methods: {
 			click1() {
 				window.location.href =
-					'https://sme.kcbebank.com/marketing/share.html?redirect_uri=https%3A%2F%2Fsme.kcbebank.com%2Fsme%3FinviterUserNo%3DUR170848687507914753%26channelNo%3DWECHAT_H5%26channelCode%3D9921623CSkv5%26inviterChannelCode%3D9921623CSkv5%26timestamp%3DOEXFxJWv374NTLddvvh%252FMUOBMOeVScTx2shleEsC6%252BA%253D%26actCode%3DorgActCode%26referenceOpenId%3DoMHYr5jqqbXTLdArs1HXDELjwReg';
+					'https://sme.kcbebank.com/marketing/share.html?redirect_uri=https%3A%2F%2Fsme.kcbebank.com%2Fsme%3FinviterUserNo%3DUR170848687507914753%26channelNo%3DWECHAT_H5%26channelCode%3D9921623CSkv5%26inviterChannelCode%3D9921623CSkv5%26timestamp%3DkotN8bG5sMJF2weJmXj%252Fw0OBMOeVScTx2shleEsC6%252BA%253D%26actCode%3DorgActCode%26referenceOpenId%3DoMHYr5jqqbXTLdArs1HXDELjwReg';
 			},
 			click2() {
 				window.location.href =
@@ -82,20 +82,23 @@
 			},
 			click5() {
 				window.location.href =
-					'https://direct.z-bank.com/portal-loan/xzsdent/#/index?ChannelSeq=10044ZSDZYQY&SubChannelSeq=zsdbjdkjqd0013';
+					'https://imax.hzbank.com.cn/NeobankServer/share/view/CompanyLoanNew.html?Y29kZT1TWkhEMiZwbGF0Zm9ybT0wMA==';
 			},
 			click6() {
 				window.location.href =
-					"https://onlineloan.suningbank.com/merchant/#/appOther/MicApplyForCreditH5/1/QD1394";
+					"https://direct.z-bank.com/portal-loan/xzsdent/#/index?ChannelSeq=10044ZSDZYQY&SubChannelSeq=zsdbjdkjqd0013";
 			},
 			click7() {
-				console.log(6);
+				window.location.href =
+					"https://direct.z-bank.com/portal-loan/xzsdzy/#/index?ChannelSeq=10035ZYZSD&SubChannelSeq=zsdcjdkjqd0013";
 			},
 			click8() {
-				console.log(6);
+				window.location.href =
+				"https://onlineloan.suningbank.com/merchant/#/appOther/MicApplyForCreditH5/1/QD1394";
 			},
 			click9() {
-				console.log(6)
+				window.location.href =
+					"https://mloan.dashuf.com/bsmpweb/#/uniteLogin?qrNo=DSX82375eb05c4447729c51ab3f13901250&productId=D014&channelNum=XLSA&belongCompany=401900&bsmpInfoId=CQPI202305070000478&productIds=110,224,216,218,160,150";
 			},
 
 		}
