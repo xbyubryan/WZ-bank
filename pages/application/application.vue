@@ -1,3 +1,12 @@
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?720f3b0028584f4587d46b433db6aaf1";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
 <template>
 	<view class="content">
 		<img class="bgImg" src="/static/images/jump_head.png" alt="">
@@ -94,7 +103,7 @@
 			},
 			click8() {
 				window.location.href =
-				"https://onlineloan.suningbank.com/merchant/#/appOther/MicApplyForCreditH5/1/QD1394";
+					"https://onlineloan.suningbank.com/merchant/#/appOther/MicApplyForCreditH5/1/QD1394";
 			},
 			click9() {
 				window.location.href =
